@@ -1,0 +1,171 @@
+/*
+colors
+#867070 - dark brown
+#D5B4B4 - 
+#E4D0D0 - medium beige
+#F5EBEB - light beige
+
+#a69983
+#191919
+#FF69B4 - hot pink
+*/
+
+body{
+     font-family: 'VT323', monospace;
+}
+
+/*NAV-BAR*/
+.nav_bar {
+    background-color: #a69983;
+}
+
+.navigation {
+    list-style: none;
+    text-align: left;
+    padding-top: 12px;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navigation img {
+    height: 100px;
+    width: auto;
+}
+
+.navigation a {
+    color: #000000;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #FF69B4;
+}
+
+
+
+/*TOP-PAGE*/
+.top_page {
+/*  background-color: #a69983;*/
+  background-color: #191919;
+    padding: 20px;
+}
+.top_page img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*LINE*/
+.line{
+    background-color: #FF69B4;
+    
+}
+
+
+/*MIDDLE_PAGE*/
+.middle_title {
+    text-align: center;
+    font-size: 150px;
+    background-color: #a69983;
+}
+
+.middle_page {
+    background-color: #a69983;
+    padding: 30px;
+}
+
+.artists {
+    list-style: none;
+    text-align: center;
+    padding-top: 12px;
+    background-image: url(../images/middle.png);
+    background-size: cover;
+}
+
+.artists img {
+    height: 300px;
+    width: auto;
+    border-radius: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.artists a {
+    color: #000000;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+
+.artists a:hover {
+    color: #FF69B4;
+}
+
+/*FOOTER*/
+
+
+.footer {
+    background-color: #191919;
+     padding: 20px;
+}
+
+.footer p{
+    color: #FFFFFF;
+   
+}
+
+.footer img {
+    height: 100px;
+    width: auto;
+    padding-left: 40px;
+}
+
+.footer_links {
+    list-style: none;
+    text-align: left;
+
+}
+
+.footer_links a {
+    color: #FFFFFF;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+
+.footer_links a:hover {
+    color: #FF69B4;
+}
+
+
+.artist_name p{
+    font-size: 100px;
+}
+
+.painting_details{
+    padding: 20px;
+}
+
+.painting {
+    list-style: none;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.painting_details p{
+    font-size: 25px;
+    padding-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
